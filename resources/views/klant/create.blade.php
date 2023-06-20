@@ -254,7 +254,7 @@
                    {{-- make a button to go to the edit page --}}
 
                    <div class="col-sm-2">
-                            <a class="btn btn-primary" href='klant.index'>Back</a>
+                            <a class="btn btn-primary" href='klant.index'>Terug</a>
                         </div>
                             <div class="col-6 ms-auto mb-5 float-end">
                                 <button type="submit" class="btn btn-warning">opslaan</button>
