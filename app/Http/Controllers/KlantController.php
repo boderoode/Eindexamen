@@ -125,6 +125,10 @@ class KlantController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        //make a delete function where it gets deleted connected to the id
+        User::where('id', $id)->delete();
+
+        //redirect to the index
+        return redirect()->route('klant.index');
     }
 }

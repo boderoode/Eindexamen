@@ -54,6 +54,7 @@
                         <td>{{$klant->wensen}}</td>
                         <td>{{$klant->allergie}}</td>
                         <td><a href="{{route('klant.show', $klant->id)}}" class="btn btn-primary">Wijzig</a></td>
+                        <a class="btn btn-danger" href="{{ route('klant.destroy' $klanten[0]->id) }}"><i class="fab fa-trash" title="Verwijder persoon"></i></a>
                     </tr>
                         
                     @endforeach
